@@ -1,0 +1,29 @@
+//carousel
+#carouselExampleIndicators.carousel.slide(data-ride='carousel')
+	ol.carousel-indicators
+		li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
+		li(data-target='#carouselExampleIndicators', data-slide-to='1')
+		li(data-target='#carouselExampleIndicators', data-slide-to='2')
+	.carousel-inner
+		.carousel-item.active
+			img.d-block.w-100(src='http://via.placeholder.com/1300x400', alt='First slide')
+			.carousel-caption.d-none.d-md-block.wow.bounceInLeft
+				h5  Lorem ipsum dolor sit.
+				p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, autem.
+		.carousel-item
+			img.d-block.w-100(src='http://via.placeholder.com/1300x400', alt='Second slide')
+			.carousel-caption.d-none.d-md-block
+				h5  Lorem ipsum dolor sit.
+				p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, qui.
+		.carousel-item
+			img.d-block.w-100(src='http://via.placeholder.com/1300x400', alt='Third slide')
+			.carousel-caption.d-none.d-md-block
+				h5  Lorem ipsum dolor sit.
+				p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, aut.
+	a.carousel-control-prev(href='#carouselExampleIndicators', role='button', data-slide='prev')
+		span.carousel-control-prev-icon(aria-hidden='true')
+		span.sr-only Previous
+	a.carousel-control-next(href='#carouselExampleIndicators', role='button', data-slide='next')
+		span.carousel-control-next-icon(aria-hidden='true')
+		span.sr-only Next
+//./carousel
