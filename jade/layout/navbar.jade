@@ -1,32 +1,19 @@
 //navbar
-nav.navbar.navbar-expand-lg.navbar-light.sticky-top(style='background-color:#00BCD4')
+nav.navbar.navbar-expand-lg.navbar-light.sticky-top.bg-primary
   a#logo.navbar-brand.text-white(href='#') LogoEmpresa
   button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
     span.navbar-toggler-icon
   #navbarSupportedContent.collapse.navbar-collapse
-    ul.navbar-nav.mr-auto.h5
+    ul.navbar-nav.ml-auto.h5
       li.nav-item.active
-        a.nav-link.text-white(href='http://localhost:3000/')
-          i.fa.fa-home
-          |  Inicio 
+        a.nav-link.text-white.active(data-scroll='', href='#sec-1') Inicio 
           span.sr-only (current)
       li.nav-item
-        a.nav-link.text-white(href='http://localhost:3000/nosotros.html') Nosotros
-      li.nav-item.dropdown
-        a#navbarDropdown.nav-link.dropdown-toggle.text-white(href='http://localhost:3000/servicios.html', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-          | Servicios
-        .dropdown-menu.wow.fadeInDown(aria-labelledby='navbarDropdown',data-wow-duration='1s')
-          a.dropdown-item(href='#') Servicio 1
-          a.dropdown-item(href='#') Servicio 2
-          .dropdown-divider
-          a.dropdown-item(href='#') Something else here
+        a.nav-link.text-white(data-scroll='', href='#sec-2') About
       li.nav-item
-        a.nav-link.text-white(href='http://localhost:3000/galeria.html') Galeria
+        a.nav-link.text-white(data-scroll='', href='#sec-3') Services
       li.nav-item
-        a.nav-link.text-white(href='http://localhost:3000/blog.html') Blog
+        a.nav-link.text-white(data-scroll='', href='#sec-4') Gallery
       li.nav-item
-        a.nav-link.text-white(href='http://localhost:3000/contacto.html') Contacto
-    ul.navbar-nav.ml-auto.h5
-      li.nav-item
-        a.nav-link.text-white(href='http://localhost:3000/login.html') Login
+        a.nav-link.text-white(data-scroll='', href='#sec-5') Portafolio
 //.navbar

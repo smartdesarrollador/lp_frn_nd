@@ -1,0 +1,16 @@
+//Gallery
+h2.text-center.my-5 Gallery
+.container
+	.row.my-5
+		- for (var x = 1; x <= 8; x++)
+			.col-md-3.my-2
+				a#imagen_galeria.hover01(href="#")
+					figure
+						img.img-fluid.thumb_gallery(src= 'http://via.placeholder.com/200x200')
+.container
+	.row
+		.col-md-12
+			#background_overlay
+				
+		
+			

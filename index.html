@@ -27,84 +27,187 @@
   </head>
   <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color:#00BCD4;"><a class="navbar-brand text-white" id="logo" href="#">LogoEmpresa</a>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-primary"><a class="navbar-brand text-white" id="logo" href="#">LogoEmpresa</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto h5">
-          <li class="nav-item active"><a class="nav-link text-white" href="http://localhost:3000/"><i class="fa fa-home"></i> Inicio <span class="sr-only">(current)</span></a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="http://localhost:3000/nosotros.html">Nosotros</a></li>
-          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-white" id="navbarDropdown" href="http://localhost:3000/servicios.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
-            <div class="dropdown-menu wow fadeInDown" aria-labelledby="navbarDropdown" data-wow-duration="1s"><a class="dropdown-item" href="#">Servicio 1</a><a class="dropdown-item" href="#">Servicio 2</a>
-              <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item"><a class="nav-link text-white" href="http://localhost:3000/galeria.html">Galeria</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="http://localhost:3000/blog.html">Blog</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="http://localhost:3000/contacto.html">Contacto</a></li>
-        </ul>
         <ul class="navbar-nav ml-auto h5">
-          <li class="nav-item"><a class="nav-link text-white" href="http://localhost:3000/login.html">Login</a></li>
+          <li class="nav-item active"><a class="nav-link text-white active" data-scroll="" href="#sec-1">Inicio <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a class="nav-link text-white" data-scroll="" href="#sec-2">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" data-scroll="" href="#sec-3">Services</a></li>
+          <li class="nav-item"><a class="nav-link text-white" data-scroll="" href="#sec-4">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link text-white" data-scroll="" href="#sec-5">Portafolio</a></li>
         </ul>
       </div>
     </nav>
     <!--.navbar-->
-    <h1>Landing Page</h1><br><br><br><br>
-    <!--form subscribe-->
-    <section class="suscripcion">
-      <div class="py-2 rounded-0 py-3 bg-dark">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-7">
-              <div class="input-group py-0">
-                <input class="form-control" type="text" placeholder="Your e-mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                  <button class="btn btn-outline-danger" type="button">Suscribe</button>
-                </div>
+    <section class="header_landing bg-primary text-white" id="sec-1">
+      <!--header-->
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-md-7 d-flex flex-column justify-content-center">
+            <h1> Lorem ipsum</h1>
+            <p class="text-white"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptate incidunt obcaecati culpa natus? Ducimus, deleniti. Eos quam, est voluptatibus!</p>
+          </div>
+          <div class="col-md-5 align-middle">
+            <div class="card border-0">
+              <div class="card-body">
+                <form>
+                  <div class="form-group">
+                    <label>Name</label>
+                    <input class="form-control" type="text" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <label>Email</label>
+                    <input class="form-control" type="email" placeholder="Email">
+                  </div>
+                  <button class="btn btn-danger" type="submit">Call to Action</button>
+                </form>
               </div>
             </div>
-            <div class="col-md-5 text-right"><a class="pr-4 hvr-bob"><i class="fa fa-facebook fa-3x"></i></a><a class="pr-4 hvr-bob"><i class="fa fa-twitter fa-3x"></i></a><a class="pr-4 hvr-bob"><i class="fa fa-google fa-3x"></i></a><a class="pr-4 hvr-bob"><i class="fa fa-linkedin fa-3x"></i></a><a class="pr-4 hvr-bob"><i class="fa fa-youtube fa-3x"></i></a></div>
           </div>
-          <hr>
         </div>
       </div>
     </section>
-    <!--./form subscribe-->
-    <!--footer-->
-    <footer>
-      <div class="rounded-0 text-white p-5 bg-dark">
+    <section id="sec-2">
+      <!--About Us-->
+      <div class="jumbotron">
         <div class="container">
           <div class="row">
-            <div class="col-md-3 border-right">
-              <h5 class="titulo_footer"> Lorem ipsum.</h5><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a>
+            <div class="col-md-6">
+              <h2> About Us</h2>
+              <hr>
+              <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus obcaecati tenetur necessitatibus, quibusdam non alias, iure, incidunt hic quisquam optio numquam suscipit enim facere aut laudantium ipsum voluptate ratione itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus obcaecati tenetur necessitatibus, quibusdam non alias, iure, incidunt hic quisquam optio numquam suscipit enim facere aut laudantium ipsum voluptate ratione itaque.</p>
             </div>
-            <div class="col-md-3 border-right">
-              <h5 class="titulo_footer"> Lorem ipsum.</h5><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a>
-            </div>
-            <div class="col-md-3 border-right">
-              <h5 class="titulo_footer"> Lorem ipsum.</h5><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-angle-right"> Lorem ipsum.</i></a>
-            </div>
-            <div class="col-md-3">
-              <h5 class="titulo_footer"> Contact Us.</h5><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-phone">    +233 434 243</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-envelope"> info@demolink.org</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-map-marker"> Rhidmand Usa 1343</i></a><a class="d-block text-white hvr-forward" href="#"><i class="fa fa-clock-o"> Mon - Sat - 9:00 - 18:00</i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!--./footer-->
-    <!--copyright-->
-    <section id="copyright">
-      <div class="py-2 rounded-0 py-2 bg-dark">
-        <div class="container">
-          <hr>
-          <div class="row">
-            <div class="col-md-12 text-center text-white">
-              <p>copyright@ 2018</p>
+            <div class="col-md-6 hover14">
+              <figure><img class="img-fluid" src="http://via.placeholder.com/750x500"></figure>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!--./copyright-->
+    <section id="sec-3">
+      <!--services-->
+      <section class="wow fadeInDown" id="services" data-wow-duration="4s">
+        <h2 class="text-center my-5">Services Us</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 text-center"><a class="hvr-bob" href="#"><i class="fa fa-home fa-4x"></i></a>
+              <hr>
+              <h5> Lorem ipsum dolor.</h5>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a class="hvr-forward" href="#"><i class="fa fa-angle-right"> read more</i></a>
+            </div>
+            <div class="col-md-3 text-center"><a class="hvr-bob" href="#"><i class="fa fa-phone fa-4x"></i></a>
+              <hr>
+              <h5> Lorem ipsum dolor.</h5>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a class="hvr-forward" href="#"><i class="fa fa-angle-right"> read more</i></a>
+            </div>
+            <div class="col-md-3 text-center"><a class="hvr-bob" href="#"><i class="fa fa-clock-o fa-4x"></i></a>
+              <hr>
+              <h5> Lorem ipsum dolor.</h5>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a class="hvr-forward" href="#"><i class="fa fa-angle-right"> read more</i></a>
+            </div>
+            <div class="col-md-3 text-center"><a class="hvr-bob" href="#"><i class="fa fa-envelope fa-4x"></i></a>
+              <hr>
+              <h5> Lorem ipsum dolor.</h5>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a class="hvr-forward" href="#"><i class="fa fa-angle-right"> read more</i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="sec-4">
+      <!--Gallery-->
+      <h2 class="text-center my-5">Gallery</h2>
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-md-3 my-2"><a class="hover01" id="imagen_galeria" href="#">
+              <figure><img class="img-fluid thumb_gallery" src="http://via.placeholder.com/200x200"></figure></a></div>
+          <div class="col-md-3 my-2"><a class="hover01" id="imagen_galeria" href="#">
+              <figure><img class="img-fluid thumb_gallery" src="http://via.placeholder.com/200x200"></figure></a></div>
+          <div class="col-md-3 my-2"><a class="hover01" id="imagen_galeria" href="#">
+              <figure><img class="img-fluid thumb_gallery" src="http://via.placeholder.com/200x200"></figure></a></div>
+          <div class="col-md-3 my-2"><a class="hover01" id="imagen_galeria" href="#">
+              <figure><img class="img-fluid thumb_gallery" src="http://via.placeholder.com/200x200"></figure></a></div>
+          <div class="col-md-3 my-2"><a class="hover01" id="imagen_galeria" href="#">
+              <figure><img class="img-fluid thumb_gallery" src="http://via.placeholder.com/200x200"></figure></a></div>
+          <div class="col-md-3 my-2"><a class="hover01" id="imagen_galeria" href="#">
+              <figure><img class="img-fluid thumb_gallery" src="http://via.placeholder.com/200x200"></figure></a></div>
+          <div class="col-md-3 my-2"><a class="hover01" id="imagen_galeria" href="#">
+              <figure><img class="img-fluid thumb_gallery" src="http://via.placeholder.com/200x200"></figure></a></div>
+          <div class="col-md-3 my-2"><a class="hover01" id="imagen_galeria" href="#">
+              <figure><img class="img-fluid thumb_gallery" src="http://via.placeholder.com/200x200"></figure></a></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="background_overlay"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sec-5">
+      <!--portafolio-->
+      <section class="my-5 wow fadeInDown" id="portafolio" data-wow-duration="4s">
+        <h2 class="text-center my-4">Portafolds Us</h2>
+        <div class="container">
+          <div class="row">
+                  <!--card_portafolio-->
+                  <div class="col-md-3">
+                    <div class="card border-0" style="width:14rem;"><img class="card-img-top" src="http://via.placeholder.com/220x220">
+                      <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor.</h5>
+                        <hr>
+                        <p class="text-muted">November 4, 2018, at 3:40pm</p>
+                        <p class="card-text text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta in earum, nihil aut pariatur laboriosam id aperiam officiis minus hic ullam repellendus, natus minima. Quas.</p>
+                        <p class="text-muted d-inline border-right pr-2">2 comments </p>
+                        <p class="text-muted d-inline pl-2">2 shards</p><a class="hvr-forward" href="#"><i class="fa fa-angle-right"> read more</i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!--card_portafolio-->
+                  <div class="col-md-3">
+                    <div class="card border-0" style="width:14rem;"><img class="card-img-top" src="http://via.placeholder.com/220x220">
+                      <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor.</h5>
+                        <hr>
+                        <p class="text-muted">November 4, 2018, at 3:40pm</p>
+                        <p class="card-text text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta in earum, nihil aut pariatur laboriosam id aperiam officiis minus hic ullam repellendus, natus minima. Quas.</p>
+                        <p class="text-muted d-inline border-right pr-2">2 comments </p>
+                        <p class="text-muted d-inline pl-2">2 shards</p><a class="hvr-forward" href="#"><i class="fa fa-angle-right"> read more</i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!--card_portafolio-->
+                  <div class="col-md-3">
+                    <div class="card border-0" style="width:14rem;"><img class="card-img-top" src="http://via.placeholder.com/220x220">
+                      <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor.</h5>
+                        <hr>
+                        <p class="text-muted">November 4, 2018, at 3:40pm</p>
+                        <p class="card-text text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta in earum, nihil aut pariatur laboriosam id aperiam officiis minus hic ullam repellendus, natus minima. Quas.</p>
+                        <p class="text-muted d-inline border-right pr-2">2 comments </p>
+                        <p class="text-muted d-inline pl-2">2 shards</p><a class="hvr-forward" href="#"><i class="fa fa-angle-right"> read more</i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!--card_portafolio-->
+                  <div class="col-md-3">
+                    <div class="card border-0" style="width:14rem;"><img class="card-img-top" src="http://via.placeholder.com/220x220">
+                      <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor.</h5>
+                        <hr>
+                        <p class="text-muted">November 4, 2018, at 3:40pm</p>
+                        <p class="card-text text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta in earum, nihil aut pariatur laboriosam id aperiam officiis minus hic ullam repellendus, natus minima. Quas.</p>
+                        <p class="text-muted d-inline border-right pr-2">2 comments </p>
+                        <p class="text-muted d-inline pl-2">2 shards</p><a class="hvr-forward" href="#"><i class="fa fa-angle-right"> read more</i></a>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+      </section>
+    </section>
     <!--scripts-->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/boostrap/js/dist/popover.js"></script>
@@ -115,6 +218,7 @@
     <script src="assets/scrollup/jquery.scrollUp.js"></script>
     <script src="assets/gallery_jquery/gallery.js"></script>
     <script src="bower_components/jquery-circle-progress/dist/circle-progress.min.js"></script>
+    <script src="node_modules/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
     <script type="text/javascript">
       var owl = $('.owl-carousel');
       owl.owlCarousel({
@@ -193,5 +297,6 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
+    <script>var scroll = new SmoothScroll('a[href*="#"]', {ignore: '[data-scroll-ignore]', header: '.navbar', speed: 500,   offset: 0,   easing: 'easeInOutCubic', customEasing: function (time) {},   before: function () {}, after: function () {} });</script>
   </body>
 </html>

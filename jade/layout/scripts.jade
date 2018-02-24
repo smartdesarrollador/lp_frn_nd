@@ -8,6 +8,7 @@ script(src='bower_components/wow/dist/wow.min.js')
 script(src='assets/scrollup/jquery.scrollUp.js')
 script(src='assets/gallery_jquery/gallery.js')
 script(src='bower_components/jquery-circle-progress/dist/circle-progress.min.js')
+script(src='node_modules/smooth-scroll/dist/js/smooth-scroll.min.js')
 script(type='text/javascript').
 	
 	var owl = $('.owl-carousel');
@@ -83,3 +84,5 @@ script(type='text/javascript').
 	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	})();
+script.
+	var scroll = new SmoothScroll('a[href*="#"]', {ignore: '[data-scroll-ignore]', header: '.navbar', speed: 500,   offset: 0,   easing: 'easeInOutCubic', customEasing: function (time) {},   before: function () {}, after: function () {} });
